@@ -1,0 +1,104 @@
+.box1
+{
+    
+    border: 5px solid yellowgreen;
+    background-color: black;
+    height: 50%;
+    width: 915.5px;
+    text-align: center;
+    margin-left: 470px;
+    line-height: 5;
+    padding: 1%;
+    margin-top: 1%;
+    
+}
+
+.boxMenu
+{
+    
+    border: 5px solid yellowgreen;
+    background-color: black;
+    height: 50%;
+    width: 33%;
+    text-align: center;
+    margin-left: 470px;
+    line-height: 5;
+    padding: 1%;
+    margin-top: 1%;
+    
+}
+
+
+
+
+.box2
+{
+    border: 5px solid yellowgreen;
+    border-bottom: 3px solid yellowgreen;
+    background-color: black;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    line-height: 2;
+    padding: 1%;
+    
+}
+
+.box3
+{
+    border: 5px solid yellowgreen;
+    border-top: 2px solid yellowgreen;
+    background-color: black;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    line-height: 2;
+    padding: 1%;
+}
+
+
+.boxback
+{
+    
+    background-color: #080707;
+    height: 100 px;
+    width: 11%;
+    text-align: center;
+    line-height: 2;
+    padding: 1%;
+    margin-right: 475px;
+    margin-top: 1%;
+    
+}
+
+
+.space
+{
+    white-space: pre-line;
+    white-space: nowrap;
+}
+
+
+
+.header
+{
+    background-color: beige; /* Example background color */
+    color: white; /* Example text color */
+    padding: 20px; /* Example padding */
+    margin: -8px;
+
+}
+
+.header-bar 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f4dc;
+}
+
+
+.Home {
+    color: black;
+    margin: 0;
+}
