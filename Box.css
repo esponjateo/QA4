@@ -1,8 +1,8 @@
 .box1
 {
     
-    border: 5px solid yellowgreen;
-    background-color: black;
+    border: 5px solid #ffd656;
+    background-color: #ffebab;
     height: 50%;
     width: 915.5px;
     text-align: center;
@@ -94,7 +94,9 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f5f4dc;
+    margin: -20px;
+    background-color:#ffebab;
+    border: 5px solid #ffd656;
 }
 
 
