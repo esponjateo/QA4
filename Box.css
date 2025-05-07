@@ -1,11 +1,10 @@
 .box1
 {
     
-    border: 5px solid #ffd656;
-    background-color: #ffebab;
+    border: 5px solid #B08968;
+    background-color: #EDE0D4;
     height: 50%;
     width: 915.5px;
-    text-align: center;
     margin-left: 470px;
     line-height: 5;
     padding: 1%;
@@ -16,8 +15,8 @@
 .boxMenu
 {
     
-    border: 5px solid yellowgreen;
-    background-color: black;
+    border: 5px solid #B08968;
+    background-color: #EDE0D4;
     height: 50%;
     width: 33%;
     text-align: center;
@@ -33,26 +32,26 @@
 
 .box2
 {
-    border: 5px solid yellowgreen;
-    border-bottom: 3px solid yellowgreen;
-    background-color: black;
+    border: 5px solid #B08968;
+    border-bottom: 3px solid #B08968;
+    background-color: #EDE0D4;
     height: 40px;
     width: 90%;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     padding: 1%;
-    
+
 }
 
 .box3
 {
-    border: 5px solid yellowgreen;
-    border-top: 2px solid yellowgreen;
-    background-color: black;
+    border: 5px solid #B08968;
+    border-top: 2px solid #B08968;
+    background-color: #EDE0D4;
     height: 40px;
     width: 90%;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     padding: 1%;
 }
 
@@ -60,14 +59,15 @@
 .boxback
 {
     
-    background-color: #080707;
+    background-color: #EDE0D4;
     height: 100 px;
     width: 11%;
     text-align: center;
     line-height: 2;
     padding: 1%;
+    padding-right: 1px;
     margin-right: 475px;
-    margin-top: 1%;
+    margin-top: 10px;
     
 }
 
@@ -95,8 +95,8 @@
     justify-content: space-between;
     padding: 20px;
     margin: -20px;
-    background-color:#ffebab;
-    border: 5px solid #ffd656;
+    background-color:#EDE0D4;
+    border-bottom: 5px solid #B08968;
 }
 
 
