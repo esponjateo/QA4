@@ -72,14 +72,13 @@
         <div class="box1">
             <section class="Intro">
                 <h1 class="Top">Welcome To Star Brew</h1>
-                <h3 class="text">At Star Brew, we believe that every cup of coffee tells a story — one of passion, quality, and connection. </h3>
+                <h3 class="text"><span id="typing-text"></span></h3>
                 <h3 class="text">We are a coffee company dedicated to delivering rich, handcrafted brews that energize your day and bring people together.</h3>
             </section>
          </div>
 
     </header>
 
-    <body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
 
     <div  style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 40px;">
         <header> 
@@ -110,8 +109,23 @@
        
     </div>
 
+    <script>
+        const text = "At Star Brew, we believe that every cup of coffee tells a story — one of passion, quality, and connection.";
+        const typingElement = document.getElementById("typing-text");
+        let index = 0;
+    
+        function typeText() {
+            if (index < text.length) {
+                typingElement.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeText, 50); // Typing speed
+            }
+        }
+    
+        window.onload = typeText;
+    </script>
     </body>
-
+    
 
 
 </body>
